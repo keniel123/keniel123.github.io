@@ -29,9 +29,19 @@ a:hover{text-decoration:underline}
 .links a{margin-left:16px;color:var(--muted)}
 .links a:hover{color:var(--text);text-decoration:none}
 .hero{padding:28px 0 18px 0}
+.heroRow{display:flex;gap:22px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .hero h1{font-size:42px; margin:0 0 12px 0;}
 .subtitle{color:var(--muted);font-size:18px;max-width:850px}
 .cta{margin:18px 0 8px 0; display:flex; gap:10px; flex-wrap:wrap}
+.heroImg{flex: 0 0 auto}
+.avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
 .button{
   display:inline-block;
   padding:10px 14px;
@@ -79,8 +89,19 @@ h2{font-size:22px;margin:0 0 14px 0}
   padding:16px;
 }
 .pub h3{margin:0 0 6px 0}
+.venue{margin:0 0 8px 0; color: var(--text)}
+summary{cursor:pointer; color: var(--muted); margin-top: 10px}
+.bib{
+  margin: 10px 0 0 0;
+  padding: 12px;
+  background: rgba(0,0,0,0.22);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow-x: auto;
+}
 .footer{margin-top:22px;padding-top:16px;border-top:1px solid var(--border)}
 @media (max-width: 760px){
   .hero h1{font-size:34px}
   .card{grid-column: span 12;}
+  .avatar{width:120px;height:120px}
 }
