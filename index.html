@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keniel Peart — ML Research / ML Engineer</title>
+  <meta name="description" content="Keniel Peart — PhD researcher in AI (radar-based pose estimation, multimodal sensing)." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="#top">Keniel Peart</a>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="top">
+      <h1>ML Research / ML Engineer</h1>
+      <p class="subtitle">
+        PhD Researcher in AI at the University of Southampton (UKRI MINDS CDT). I work on
+        <strong>radar-based human pose estimation</strong> and <strong>multi-modal sensing</strong> (radar + vision), with an emphasis on
+        robust motion understanding in low-light/occlusion and privacy-sensitive settings.
+      </p>
+      <div class="cta">
+        <a class="button" href="#projects">View projects</a>
+        <a class="button secondary" href="https://github.com/keniel123" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="button secondary" href="https://www.linkedin.com/in/keniel-peart/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+      <p class="small">Open to ML Research / ML Engineer roles.</p>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="projects">
+      <h2>Selected Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Multi-sensor data collection (Radar + Azure Kinect)</h3>
+          <p>
+            A modular GUI to synchronise TI mmWave radar (AWR2243) with Azure Kinect RGB-D for labelled activity data collection.
+          </p>
+          <div class="meta">
+            <span class="tag">Radar</span><span class="tag">RGB-D</span><span class="tag">Data collection</span>
+          </div>
+          <p class="links">
+            <a href="https://github.com/keniel123/multi-sensor-data-collection" target="_blank" rel="noreferrer">Repo</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>NEAT Tetris agent (Unity / C#)</h3>
+          <p>
+            Neuroevolution (NEAT) agents that learn to play Tetris in Unity/C# (multiple agent variants).
+          </p>
+          <div class="meta">
+            <span class="tag">NEAT</span><span class="tag">Unity</span><span class="tag">C#</span>
+          </div>
+          <p class="links">
+            <a href="https://github.com/keniel123/neat-tetris-agent" target="_blank" rel="noreferrer">Repo</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Dynamic maze Q-learning</h3>
+          <p>
+            Tabular Q-learning agent for a dynamic maze environment with training metrics and path visualisations.
+          </p>
+          <div class="meta">
+            <span class="tag">Reinforcement learning</span><span class="tag">Q-learning</span>
+          </div>
+          <p class="links">
+            <a href="https://github.com/keniel123/dynamic-maze-qlearning" target="_blank" rel="noreferrer">Repo</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Latent image animator</h3>
+          <p>
+            Research experiments and reproducibility work around latent image animation.
+          </p>
+          <div class="meta">
+            <span class="tag">Deep learning</span><span class="tag">Reproducibility</span>
+          </div>
+          <p class="links">
+            <a href="https://github.com/keniel123/latent-image-animator" target="_blank" rel="noreferrer">Repo</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Automated negotiation agent</h3>
+          <p>
+            An automated negotiation agent exploring trade-offs in multi-issue negotiation.
+          </p>
+          <div class="meta">
+            <span class="tag">Agents</span><span class="tag">Negotiation</span>
+          </div>
+          <p class="links">
+            <a href="https://github.com/keniel123/automated-negotiation-agent" target="_blank" rel="noreferrer">Repo</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <article class="pub">
+        <h3>Advancements in Non-Invasive Neuroimaging: Exploring the Potential of Radar Technology for Brain Imaging and Tumour Detection</h3>
+        <p class="small">
+          IEEE Xplore: <a href="https://ieeexplore.ieee.org/abstract/document/10782724/" target="_blank" rel="noreferrer">10782724</a>
+        </p>
+        <p>
+          If you’d like, I can add a full BibTeX citation, PDF link (if permitted), and related slides/poster.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:peartkeniel@gmail.com">peartkeniel@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/keniel-peart/" target="_blank" rel="noreferrer">keniel-peart</a></li>
+        <li>GitHub: <a href="https://github.com/keniel123" target="_blank" rel="noreferrer">keniel123</a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p class="small">© <span id="y"></span> Keniel Peart</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
