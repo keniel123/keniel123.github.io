@@ -91,7 +91,7 @@ The thread running through my research is *human sensing, end to end*: I build t
       <span class="timeline__date">PhD</span>
       <div>
         <strong>PhD in Artificial Intelligence · University of Southampton</strong>
-        <p>2022 – present · UKRI MINDS CDT Studentship · computer vision, 3D human motion &amp; radar sensing.</p>
+        <p>2022 – present · UKRI MINDS CDT Studentship · computer vision, 3D human motion &amp; radar sensing (supervisor: Dr Shelly Vishwakarma).</p>
       </div>
     </div>
     <div class="timeline__item">

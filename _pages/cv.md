@@ -17,7 +17,7 @@ Education
 ======
 
 * **PhD in Artificial Intelligence**, University of Southampton, 2022–present
-  * UKRI MINDS CDT Studentship
+  * UKRI MINDS CDT Studentship (supervisor: Dr Shelly Vishwakarma)
 * **MSc in Artificial Intelligence (Distinction)**, University of Southampton, 2021–2022
   * Thesis: *Universal Gene Transformer: Cancer Subtype Classification using RNA-Seq Data* (supervisor: Dr Jo Grundy)
 * **BSc in Computer Science (Distinction)**, University of the West Indies, Mona, Jamaica, 2014–2017
