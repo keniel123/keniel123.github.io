@@ -84,12 +84,37 @@ The thread running through my research is *human sensing, end to end*: I build t
   <p>Several first-author manuscripts from this work are currently under review at international venues — the <a href="/research/">research page</a> has the high-level story of each.</p>
 </div>
 
+<div class="home-card">
+  <h2>Education</h2>
+  <div class="timeline">
+    <div class="timeline__item">
+      <span class="timeline__date">PhD</span>
+      <div>
+        <strong>PhD in Artificial Intelligence · University of Southampton</strong>
+        <p>2022 – present · UKRI MINDS CDT Studentship · computer vision, 3D human motion &amp; radar sensing.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">MSc</span>
+      <div>
+        <strong>MSc in Artificial Intelligence (Distinction) · University of Southampton</strong>
+        <p>2021 – 2022 · Chevening Scholar · thesis on cancer subtype classification from RNA-seq data (supervisor: Dr Jo Grundy).</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">BSc</span>
+      <div>
+        <strong>BSc in Computer Science (Distinction) · University of the West Indies, Mona</strong>
+        <p>2014 – 2017 · Dean's List · thesis on training intelligent agents with neuroevolution (supervisor: Dr Gunjan Mansingh).</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="home-card" markdown="1">
 ## Before the PhD
 
-I spent three years at **NCB Financial Group** — the Caribbean's largest financial group — as a technical lead, Scrum master, and lead software developer. I led delivery of Jamaica's first online mortgage portal and a centralised lending platform, digitising 80% of the lending process and contributing to **$200M+ in annual cost reductions**. That production-engineering background still shapes how I do research: reproducible pipelines, real deployments, and systems other people can build on.
-
-I came to the UK in 2021 as a **Chevening Scholar**, completed an MSc in AI at Southampton with Distinction, and stayed on for the PhD. Originally from Kingston, Jamaica 🇯🇲.
+I spent three years at **NCB Financial Group** — the Caribbean's largest financial group — as a technical lead, Scrum master, and lead software developer. I led delivery of Jamaica's first online mortgage portal and a centralised lending platform, digitising 80% of the lending process and contributing to **$200M+ in annual cost reductions**. That production-engineering background still shapes how I do research: reproducible pipelines, real deployments, and systems other people can build on. Originally from Kingston, Jamaica 🇯🇲.
 </div>
 
 <div class="home-card" markdown="1">
