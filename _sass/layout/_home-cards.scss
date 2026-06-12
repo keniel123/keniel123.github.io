@@ -1,0 +1,149 @@
+/* ==========================================================================
+   HOMEPAGE CARDS, INTEREST PILLS & NEWS TIMELINE (custom for this site)
+   Uses the global CSS variables so light and dark themes both work.
+   ========================================================================== */
+
+.home-card {
+  background: var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 20px;
+  padding: 1.5rem 1.6rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+
+  > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-bottom: none;
+  }
+
+  > p:last-child,
+  > ul:last-child,
+  > div:last-child {
+    margin-bottom: 0;
+  }
+}
+
+html[data-theme="dark"] .home-card {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* The author profile in the sidebar becomes a matching card */
+.sidebar > div[itemscope] {
+  background: var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 20px;
+  padding: 1.2rem 1rem 1rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+}
+
+/* Grid of research-area cards */
+.home-grid {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 48em) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.research-card {
+  background: var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 16px;
+  padding: 1.1rem 1.2rem;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  h3 {
+    margin: 0 0 0.45rem;
+    font-size: 1.02em;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.88em;
+    color: var(--global-text-color-light);
+    line-height: 1.55;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.09);
+  }
+}
+
+/* Research interest pills */
+.interest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
+
+  li {
+    margin: 0;
+    padding: 0.32em 0.9em;
+    border-radius: 999px;
+    background: var(--global-thead-color);
+    color: var(--global-link-color);
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+}
+
+/* News timeline */
+.timeline {
+  margin: 0;
+}
+
+.timeline__item {
+  display: grid;
+  grid-template-columns: 4.4rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.88em;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+  }
+}
+
+.timeline__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  background: var(--global-thead-color);
+  color: var(--global-link-color);
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
